@@ -1,0 +1,8 @@
+game:GetService("Players").LocalPlayer.Character.Humanoid.Died:connect(function()
+
+while wait() do
+pcall(function()
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+end)
+end
+end)
